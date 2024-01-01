@@ -1,20 +1,4 @@
-// Create a webserver that can receive POST requests to /comments
-// and save them to a file called comments.json
-// The comments should be stored in an array
-// Each comment should have a timestamp (use Date.now())
-// When a GET request is made to /comments, return the comments array in JSON format
-// Make sure you set the appropriate response headers
-// For example:
-// [
-//   {
-//     "timestamp": 1523311614174,
-//     "comment": "I like XML better"
-//   },
-//   {
-//     "timestamp": 1523311625124,
-//     "comment": "No way dude"
-//   }
-// ]
+// Create webserver
 
 const fs = require('fs');
 const http = require('http');
