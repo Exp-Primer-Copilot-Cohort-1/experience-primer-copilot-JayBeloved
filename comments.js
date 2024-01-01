@@ -1,4 +1,4 @@
-// Create webserver
+// Create web server
 
 const fs = require('fs');
 const http = require('http');
